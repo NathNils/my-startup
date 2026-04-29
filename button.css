@@ -1,0 +1,33 @@
+/* Button component */
+.btn {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 14px 34px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary {
+  background-color: #FF6B35;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #e55a25;
+  transform: translateY(-2px);
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.60);
+}
+
+.btn-outline:hover {
+  background-color: rgba(255, 255, 255, 0.10);
+  border-color: white;
+  transform: translateY(-2px);
+}

@@ -1,0 +1,79 @@
+/* Banner component */
+.banner {
+  background-image:
+    linear-gradient(
+      -225deg,
+      rgba(0, 0, 0, 0.80) 0%,
+      rgba(0, 0, 0, 0.40) 60%
+    ),
+    url('../../images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  max-width: 800px;
+  line-height: 1.2;
+}
+
+.banner h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+  opacity: 0.8;
+  margin-top: 0;
+  margin-bottom: 40px;
+  max-width: 700px;
+  line-height: 1.5;
+}
+
+.banner-label {
+  display: inline-block;
+  background-color: rgba(255, 107, 53, 0.20);
+  color: #FF6B35;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 6px 16px;
+  border-radius: 20px;
+  margin-bottom: 24px;
+  border: 1px solid rgba(255, 107, 53, 0.35);
+}
+
+.banner-buttons {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 70px;
+}
+
+.banner-stats {
+  display: flex;
+  gap: 56px;
+  padding-top: 40px;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-number {
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+.stat-label {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.55);
+  margin-top: 4px;
+}
