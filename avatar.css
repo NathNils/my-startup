@@ -1,4 +1,4 @@
-/* Avatar component */
+
 .avatar {
   width: 150px;
   height: 150px;
@@ -6,7 +6,7 @@
   object-fit: cover;
 }
 
-/* Variante initiales pour les témoignages */
+
 .avatar-text {
   width: 52px;
   height: 52px;
