@@ -6,7 +6,7 @@
       rgba(0, 0, 0, 0.80) 0%,
       rgba(0, 0, 0, 0.40) 60%
     ),
-    url('../../images/background.jpg');
+    url('background.jpg');
   background-size: cover;
   background-position: center;
   padding: 150px 0;
