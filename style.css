@@ -1,12 +1,12 @@
-/* Importing Google fonts */
+
 @import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
 
-/* Importing component files */
+
 @import url("avatar.css");
 @import url("banner.css");
 @import url("button.css");
 
-/* General style rules */
+
 * {
   box-sizing: border-box;
 }
@@ -41,7 +41,7 @@ img {
   margin: 0 auto;
 }
 
-/* Section titles */
+
 .section-title {
   text-align: center;
   font-size: 34px;
@@ -68,7 +68,7 @@ img {
   color: rgba(255, 255, 255, 0.70);
 }
 
-/* About */
+
 .about {
   background-color: #f7f8fa;
   padding: 90px 0;
@@ -115,7 +115,7 @@ img {
   margin: 0;
 }
 
-/* Cars section */
+
 .cars-section {
   background-color: white;
   padding: 90px 0;
@@ -184,7 +184,7 @@ img {
   white-space: nowrap;
 }
 
-/* Témoignages */
+
 .testimonials {
   background-color: #1a1a2e;
   padding: 90px 0;
@@ -242,13 +242,13 @@ img {
   font-size: 13px;
 }
 
-/* Contact */
+
 .contact {
   background-color: #f7f8fa;
   padding: 90px 0;
 }
 
-/* Footer */
+
 .footer {
   background-color: #0d0d1a;
   padding-top: 60px;
@@ -321,7 +321,7 @@ img {
   margin: 0;
 }
 
-/* Responsive */
+
 @media (max-width: 1140px) {
   .container {
     width: 95%;
