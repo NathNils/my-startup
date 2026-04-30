@@ -126,7 +126,7 @@ img {
   margin-top: 40px;
 }
 
-/* Cards — grille flexbox */
+
 .cards {
   display: flex;
   flex-wrap: wrap;
